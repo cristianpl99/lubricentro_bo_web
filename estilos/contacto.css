@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url(/imagenes/boxes5.jpg);
+}
+
+.jumbotron{
+    background-image: url(/imagenes/boxes5.jpg);
+    background-size: cover;
+    color:white;
+    text-align: center;
+    border-radius: 0;
+    margin:0;
+    font-weight: bold;
+    font-size: 25px;
+}
+.encabezado{
+    font-weight: bold;
+}
+.carousel-control-prev-icon::after {
+    font-size: 70px !important;
+}
+.carousel-control-prev-icon::after {
+    font-size: 70px !important;
+}
+
+.btn-secondary{
+    margin-top: 40px;
+}
+
+.header {
+    color: #fff;
+    font-size: 27px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #fff
+}
+.enviar{
+    background-image: url(/imagenes/boxes-oil-portada.jpg);
+}
+.titulo{
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.pagos-row{
+    padding:5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5%;
+}
+
+.card{
+    border: 5px solid #000;
+    background-color: grey;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card:hover{
+    transform:scale(1.08);
+    transition: all 0.7s;
+}
+
+.titulo2{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.footer-dark {
+    padding: 15px 0;
+    color: #f0f9ff;
+    background-image: url(/imagenes/boxes-oil-portada.jpg);
+}
+
+.footer-dark .item.social {
+    text-align: center
+}
+
+.footer-dark .item.social>a {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+    margin: 0 8px;
+    color: #fff;
+    opacity: 0.75
+}
+
+.footer-dark .item.social>a:hover {
+    opacity: 0.9
+}
+
+.footer-dark .copyright {
+    text-align: center;
+    padding-top: 24px;
+    opacity: 0.3;
+    font-size: 13px;
+    margin-bottom: 0
+}
